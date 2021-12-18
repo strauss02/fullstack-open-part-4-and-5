@@ -1,0 +1,27 @@
+{
+  "name": "part4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:test":  "cross-env NODE_ENV=test node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest /tests",
+    "push": "git add . & git commit -m \"task completed process\" & git push"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.1"
+  },
+  "devDependencies": {
+    "jest": "^27.4.4",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.1.6"
+  }
+}
